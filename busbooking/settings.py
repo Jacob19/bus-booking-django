@@ -25,8 +25,11 @@ SECRET_KEY = 'us++ck*r5g!l(pipjb7gw^c9%l-!2)4(c*6fi^_qidgv0g*e0&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# for development
+# ALLOWED_HOSTS = []
 
+# for production
+ALLOWED_HOSTS = ['booking-bus-cisco.herokuapp.com']
 
 # Application definition
 
